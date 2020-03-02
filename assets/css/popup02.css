@@ -1,0 +1,178 @@
+/*********************************** 레이어 팝업 레이아웃 ***********************************************/
+
+@media all {
+	.lightbox { display: none; }
+
+	.featherlight {
+		display: none;
+
+		/* dimensions: spanning the background from edge to edge */
+		position:fixed;
+		top: 0; right: 0; bottom: 0; left: 0;
+		z-index: 2147483647; /* z-index needs to be >= elements on the site. */
+
+		/* position: centering content */
+		text-align: center;
+
+		/* insures that the ::before pseudo element doesn't force wrap with fixed width content; */
+		white-space: nowrap;
+
+		/* styling */
+		cursor: pointer;
+		background: #333;
+		/* IE8 "hack" for nested featherlights */
+		background: rgba(0, 0, 0, 0);
+	}
+
+	/* support for nested featherlights. Does not work in IE8 (use JS to fix) */
+	.featherlight:last-of-type {
+		background: rgba(0, 0, 0, 0.8);
+	}
+
+	.featherlight:before {
+		/* position: trick to center content vertically */
+		content: '';
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+	}
+
+	.featherlight .featherlight-content02 {
+		/* make content container for positioned elements (close button) */
+		position: relative;
+
+		/* position: centering vertical and horizontal */
+		text-align: left;
+		vertical-align: middle;
+		display: inline-block;
+
+		/* dimensions: cut off images */
+		overflow: auto;
+		padding: 1%;
+		*border-bottom: 25px solid transparent;
+
+		/* dimensions: handling large content */
+		margin-left: 5%;
+		margin-right: 5%;
+		max-height: 95%;
+
+		/* styling */
+		background: #fff;
+		cursor: auto;
+
+		/* reset white-space wrapping */
+		white-space: normal;
+
+
+		width:95%;
+		max-width:500px;
+	}
+
+	/* contains the content */
+	.featherlight .featherlight-inner {
+		/* make sure its visible */
+		display: block;
+		padding:10px 0;
+	}
+
+	.featherlight .featherlight-close-icon {
+		/* position: centering vertical and horizontal */
+		position: absolute;
+		z-index: 9999;
+		top: 0;
+		right: 5px;
+
+		/* dimensions: 25px x 25px */
+		line-height:50px;
+		width: 50px;
+
+		/* styling */
+		cursor: pointer;
+		text-align: center;
+		font-family: Arial, sans-serif;
+		font-size:30px;
+		background: #fff; /* Set the background in case it overlaps the content */
+		background: rgba(255, 255, 255, 0.3);
+		color: #000;
+		border: none;
+		padding: 0;
+	}
+
+	/* See http://stackoverflow.com/questions/16077341/how-to-reset-all-default-styles-of-the-html5-button-element */
+	.featherlight .featherlight-close-icon::-moz-focus-inner {
+		border: 0;
+		padding: 0;
+	}
+
+	.featherlight .featherlight-image {
+		/* styling */
+		width: 100%;
+	}
+
+
+	.featherlight-iframe .featherlight-content02 {
+		/* removed the border for image croping since iframe is edge to edge */
+		border-bottom: 0;
+		padding: 0;
+		-webkit-overflow-scrolling: touch;
+		overflow-y: scroll;
+	}
+
+	.featherlight iframe {
+		/* styling */
+		border: none;
+	}
+
+	.featherlight * { /* See https://github.com/noelboss/featherlight/issues/42 */
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+
+	.popTit	{background:#f0f0f0; padding:5px 10px; font-size:16px; line-height:100%; font-weight:600; color:#000;}
+}
+
+/* handling phones and small screens */
+@media only screen and (max-width: 1200px) {
+	.featherlight .featherlight-content02 {
+		/* dimensions: maximize lightbox with for small screens */
+		margin-left: 0;
+		margin-right: 0;
+		max-height: 98%;
+
+		padding: 10px 10px 0;
+		border-bottom: 10px solid transparent;
+
+	}
+
+	.featherlight .featherlight-inner {
+		padding:20px 0 30px;
+		}
+}
+
+
+
+/*********************************** //레이어 팝업 레이아웃 ***********************************************/
+
+.fmlyinfo_wrap{}
+.fmlyinfo_wrap h2{font-size:18px;text-align:center;color:#333;}
+
+.fmlySearch_wrap{padding:10px;margin:20px 0;border:1px solid #ddd;background-color:#fafafa;}
+.fmlySearch_wrap:after{display:block;content:"";clear:both;}
+.fmlySearch_wrap li{float:left;padding:0 5px;width:50%;}
+.fmlySearch_wrap li:first-child{text-align:right;}
+.fmlySearch_wrap li input{height:26px;}
+
+
+
+@media all and (max-width: 800px) { 
+
+
+.fmlySearch_wrap li{width:100%;text-align:center;}
+.fmlySearch_wrap li:first-child{text-align:center;}
+.fmlySearch_wrap li:last-child{padding-top:5px;margin-top:5px;border-top:1px dashed #ddd;}
+
+}
+
+/********** //식구정보불러오기  *************/

@@ -1,0 +1,573 @@
+﻿.container_wrap{}
+.subVis{background:url('../images/sub/sub_bg.jpg') center 0 repeat;height:150px; z-index:-5; }
+.container{margin:0 auto;width:100%;max-width:1200px;}
+.container:after{display:block;content:"";clear:both;}
+
+
+
+/**lnb**/
+.lnbWrap{float:left;margin-top:-110px;width:20%;max-width:210px;background-color:#FFF;}
+.lnb_tit{background:url('../images/sub/lnb_titBg.jpg') center 0 no-repeat;height:130px;text-align:center;border-bottom:1px solid #073572;}
+.lnb_tit p{padding-top:45px;font-size:28px;color:#ffd503;font-weight:normal;font-family:'NanumSquare';}
+
+ul#lnb, ul#lnb ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul#lnb a {
+  display: block;
+  text-decoration: none;
+}
+
+ul#lnb li {
+
+}
+
+ul#lnb li a {
+  background: #fff;
+  color: #333;
+  padding: 15px 0 15px 15px;
+  border-bottom:1px solid #ebebeb;
+  border-right:1px solid #ebebeb;
+  border-left:1px solid #ebebeb;
+  font-size:15px;
+  line-height:1em;
+}
+
+ul#lnb li a:hover {
+  background: #f4f4f4;
+  border-right:1px solid #ebebeb;
+  border-left:1px solid #ebebeb;
+  color:#0b4fa9;
+}
+
+ul#lnb li.one-depth.on > a{color:#fff;background:#0b4fa9 url('/images/sub/lnb_on.png') 188px 50% no-repeat; border-right:1px solid #0b4fa9;border-left:1px solid #0b4fa9;}
+
+/*3단*/
+ul#lnb li ul li a {
+  background: #f2f2f2;
+  color: #000;
+  padding:12px 0;
+  padding-left: 30px;
+   font-size:14px;
+}
+
+ul#lnb li ul li a:hover,ul#lnb li ul .current a {
+  background: #f2f2f2;
+  *border-left: 5px #000 solid;
+  padding-left: 30px;
+  color:#0b4fa9;
+  border-right:1px solid #ebebeb;
+  border-left:1px solid #ebebeb;
+}
+/** // lnb**/
+.content_wrap{float:right;margin:-105px 0 0 2%;padding-bottom:60px;max-width:945px;width:78%;}
+
+
+/**position을 relative에서 static으로 변경 170725jsw*/
+.tit_wrap{position:static;z-index:1000;text-align:center;}
+.loca{color:#888;font-size:13px;}
+.loca img{margin-top:2px;}
+.tit{padding-top:3px;color:#333;font-size:32px;font-family:'NanumSquare';}
+
+
+.cont_box{margin-top:70px;}
+
+.formWrap{padding:10px 0;border-top:1px solid #ddd;}
+.formTit{padding:20px 0 20px;text-align:center;font-size:30px;}
+
+/******* 리스트 폼 css ******/
+.formWrap .photo_box{padding:10px;border-bottom:1px solid #ddd;}
+.formWrap .photo_box_2{padding:10px;border-bottom:1px solid #ddd;}
+.formBox{}
+.formBox:after{display:block;content:"";clear:both;}
+.formBox li{float:left;width:50%;padding:0;border-bottom:1px solid #ddd;}
+.formBox li:after{display:block;content:"";clear:both;}
+.formBox li p{float:left;padding-top:14px;height:24px;width:74%;font-size:14px;line-height:1em;}
+.formBox li p.h02{height:54px;}
+.formBox li p.frm_item{width:18%;border-right:1px solid #ddd;font-weight:600;background-color:#fafafa;}
+.formBox li p.input_pd{padding:7px 8px 3px;}
+
+
+.formTop{position:relative;padding:20px 0;}
+.bt_print{position:absolute;bottom:5px;right:5px;width:45px;height:45px;}
+.bt_print img{width:100%;}
+
+
+/******* 테이블 폼 css *******/
+table{border-collapse: collapse; border-spacing: 0;width:100%;}
+.tblForm_01{border-top:2px solid #555;border-bottom:1px solid #ddd;}
+.tblForm_01 table{border-bottom:1px solid #ddd;}
+.tblForm_01 table thead th.form_tit{padding:20px 0;font-size:30px;font-weight:normal;font-family:'NanumSquare';color:#000;}
+.tblForm_01 table thead th.form_tit p.form_sort{margin-bottom:-10px;font-size:15px;text-align:right;}
+.tblForm_01 table thead th.form_tit p.form_sort span{display:inline-block;padding:3px 10px;border-radius:50px;font-size:12px;background-color:#333;color:#fff;}
+.tblForm_01 table tbody tr:first-child{border-top:1px solid #ddd;}
+.tblForm_01 table tbody th, .tblForm_01 table tbody td{padding:10px;font-size:14px;border-bottom:1px solid #ddd;}
+.tblForm_01 table tbody th{text-align:left;*border-left:1px solid #ddd;border-right:1px dashed #ddd;background-color:#fbfbfb;*font-weight:normal;color:#000;}
+.tblForm_01 table tbody td{border-right:1px solid #ddd;color:#444;}
+.tblForm_01 table tbody td:last-child{border-right:none;}
+.tblForm_01 table tbody td.bdrN{border-right:none;}
+.tblForm_01 table tbody td.pdTB20{padding-top:20px;padding-bottom:20px;}
+.tblForm_01 table tbody td p{}
+.tblForm_01 table tbody td p.photo_box{margin-top:-50px;vertical-align:top;width:100%;min-width:120px;max-width:140px}
+.tblForm_01 table tbody td p.photo_box img{width:100%;}
+.tblForm_01 table tbody td p.photo_box_2{margin-top:-50px;vertical-align:top;width:100%;min-width:120px;max-width:140px}
+.tblForm_01 table tbody td p.photo_box_2 img{width:100%;}
+.tblForm_01 table tbody td p.photo_box_3{margin-top:0px;vertical-align:center;width:100%;min-width:120px;max-width:140px}
+.tblForm_01 table tbody td p.photo_box_3 img{width:100%;}
+.tblForm_01 table tbody td p.photo_box_4{margin-top:0px;vertical-align:center;width:100%;min-width:120px;max-width:140px}
+.tblForm_01 table tbody td p.photo_box_4 img{width:100%;}
+
+.tblForm_01 table tbody td p.sign_area span{display:inline-block;padding:2px 5px;border-bottom:1px solid #666;min-width:100px;}
+
+/*  s_tit  폼 사이의 작은 타이틀 */
+.tblForm_01 table tbody td p.s_tit{margin:0 0 -8px -10px ;font-size:17px;font-weight:600;color:#000;}   /*폼(table) 사이에 있을 때*/
+p.s_tit{display:inline-block;margin:10px 0 8px;padding-top:15px;font-size:17px;font-weight:600;color:#000;}        /*폼(table) 밖에 있을 때*/
+/*  //s_tit  폼 사이의 작은 타이틀 */
+
+/* 테이블 밖 폼 타이틀 (div.form_tit)  -  주일헌금, 특별헌금 가정회비납부*/
+div.form_tit{padding:20px 0;font-size:30px;font-weight:normal;font-family:'NanumSquare';color:#000;text-align:center;border-top:2px solid #555;border-bottom:1px solid #ddd;}
+div.form_tit ul{margin-bottom:-10px;}
+div.form_tit ul:after{display:block;content:"";clear:both;}
+div.form_tit li{float:left;width:50%;}
+div.form_tit li p{font-size:15px;text-align:left;}
+div.form_tit li p.form_sort{margin-bottom:-10px;font-size:15px;text-align:right;}
+div.form_tit li p.form_sort span{display:inline-block;padding:3px 10px;border-radius:50px;font-size:12px;background-color:#333;color:#fff;}
+/*  //테이블 밖 폼 타이틀 */
+
+/* 가정회비납부 */
+.blessRegi li           {width:47%; border:2px solid #e8e8e8; padding:10px;}
+.blessRegi li:nth-child(odd)    {float:left;}
+.blessRegi li:nth-child(even)   {float:right;}
+.tblForm_01 table thead th.regiTit{padding:10px 0;font-size:16px;font-weight:normal;border-bottom:1px solid #ddd;font-family:'NanumSquare';text-align:center;color:#222;}
+
+
+.tblForm_01 table tbody td dl{margin-top:2px;}
+.tblForm_01 table tbody td dl:after{display:block;content:"";clear:both;}
+.tblForm_01 table tbody td dl dt, .tblForm_01 table tbody td dl dd{float:left;}
+.tblForm_01 table tbody td dl dt{padding:5px 10px;font-size:13px;background-color:#ebebeb;color:#333;width:10%;min-width:25px;margin-right:5px;}
+.tblForm_01 table tbody td dl dd{padding:1px 0 3px;width:77%;}
+
+/*    dl02   - 출생신고서 */
+.tblForm_01 table tbody td dl.dl02.dl.dl0202{margin-top:2px;}
+.tblForm_01 table tbody td dl.dl02:after{display:block;content:"";clear:both;}
+.tblForm_01 table tbody td dl.dl02 dt, .tblForm_01 table tbody td dl.dl02 dd{float:left;height:20px;margin-bottom:1px;}
+.tblForm_01 table tbody td dl.dl02 dt{padding:5px 10px;font-size:13px;background-color:#ebebeb;color:#333;width:auto;min-width:25px;margin-right:5px;}
+.tblForm_01 table tbody td dl.dl02 dd{padding:4px 0 6px;width:auto; margin-right:20px;}
+.tblForm_01 table tbody td dl.dl02 dd input{margin-top:-2px;} /*dd의 패딩값이 텍스트 기준으로 되어있기때문에 input을 넣을 때 margin으로 조절*/
+.tblForm_01 table tbody td dl.dl02 dd select{margin-top:-2px;} /*dd의 패딩값이 텍스트 기준으로 되어있기때문에 select를 넣을 때 margin으로 조절*/
+
+/*    dl03   - 가정출발신고서 */
+.tblForm_01 table tbody td dl.dl03.dl.dl0302{margin-top:2px;}
+.tblForm_01 table tbody td dl.dl03:after{display:block;content:"";clear:both;}
+.tblForm_01 table tbody td dl.dl03 dt, .tblForm_01 table tbody td dl.dl03 dd{float:left;height:20px;margin-bottom:1px;}
+.tblForm_01 table tbody td dl.dl03 dt{padding:5px 10px;font-size:13px;background-color:#ebebeb;color:#333;width:auto;min-width:25px;margin-right:5px;}
+.tblForm_01 table tbody td dl.dl03 dd{padding:4px 0 6px;width:auto; margin-right:20px;height:50px;}
+.tblForm_01 table tbody td dl.dl03 dd input{margin-top:-2px;margin-bottom:5px;} /*dd의 패딩값이 텍스트 기준으로 되어있기때문에 input을 넣을 때 margin으로 조절*/
+.tblForm_01 table tbody td dl.dl03 dd select{margin-top:-2px;margin-bottom:5px} /*dd의 패딩값이 텍스트 기준으로 되어있기때문에 select를 넣을 때 margin으로 조절*/
+
+
+
+/** 가족관계 **/
+.tblForm_01 table tbody td div.tbl_fmly{border:none;}
+.tblForm_01 table tbody td div.tbl_fmly table{border:none;width:100%;}
+.tblForm_01 table tbody td div.tbl_fmly table thead th, .tblForm_01 table tbody td div.tbl_fmly table tbody td{padding:3px;border:none;font-size:13px;}
+.tblForm_01 table tbody td div.tbl_fmly table thead th{text-align:center;border-bottom:1px solid #ddd;border-right:1px solid #ebebeb;}
+.tblForm_01 table tbody td div.tbl_fmly table thead th:nth-child(even){border-right:1px solid #ddd;}
+.tblForm_01 table tbody td div.tbl_fmly table thead th:last-child{border-right:none;}
+.tblForm_01 table tbody td div.tbl_fmly table tbody td{text-align:center;border-bottom:1px solid #ddd;border-right:1px solid #ebebeb;}
+.tblForm_01 table tbody td div.tbl_fmly table tbody td:nth-child(odd){border-right:1px dashed #ebebeb;}
+.tblForm_01 table tbody td div.tbl_fmly table tbody td:nth-child(even){border-right:1px solid #ddd;}
+.tblForm_01 table tbody td div.tbl_fmly table tbody td:last-child{border-right:none;}
+.tblForm_01 table tbody td div.tbl_fmly table tbody td input{width:90%;}
+
+
+/* 테이블 폼을 한번 더 감싼 박스 tblForm_box  교회장 작성 / 교구 가정부장 작성 /가정국 담당자 메모란 */
+.tblForm_box{margin-top:40px;padding:0 1% 10px;border:1px solid #ddd;width:98%;}
+.tblForm_box p.b_tit{padding:15px 0 8px;font-size:18px;border-bottom:2px solid #ddd;color:#222;font-weight:600;}
+
+
+.singBox{display:inline-block;margin-left:10px;border-bottom:1px solid #ddd;width:50%;height:22px;text-align:right;}
+.scanBox{margin-top:10px;padding-top:10px;border-top:1px dashed #ddd;}
+
+.formInfo{position:relative;margin-top:10px;padding:20px 10px 30px;font-size:13px;line-height:160%;border-top:1px solid #ddd;border-bottom:1px solid #ddd;background-color:#fafafa;}
+.formInfo p.logo_box{position:absolute;top:10px;right:0;width:258px;text-align:right;}
+.formInfo p.logo_box img{width:80%;}
+p.logo_box02{position:absolute;top:10px;right:0;width:258px;text-align:right;}
+p.logo_box02 img{width:80%;}
+
+
+/* 축복신청 바로가기 리스트 fam_00.php */
+.blessList{margin:150px auto 80px;width:760px;}
+.blessList:after{display:block;content:"";clear:both;}
+.blessList li{float:left;width:210px;margin:0 20px;padding:40px 0 30px;background-color:#234f91;border:1px solid #163e79;box-shadow:5px 5px #ddd;top: 50%}
+.blessList li p{text-align:center;}
+.blessList li p.bl_tit{font-size:20px;color:#fff;font-weight:600;line-height:130%;}
+.blessList li:first-child p.bl_tit{padding-top:6px;}
+.blessList li p.bl_desc{margin:18px 0 20px;padding-top:20px;font-size:14px;color:#f6f6f6;background:url('../images/common/line_01.gif') center top no-repeat;}
+.blessList li p.bl_bt_box a{display:inline-block;padding:5px 20px 3px;font-size:14px;color:#0f2b5d;background-color:#b7d3fd;}
+.blessList li p.bl_bt_box a:hover, .blessList li p.bl_bt_box a:focus{background-color:#ffd503;}
+
+/* 가정출발보고 바로가기 리스트 fam_06_0.php */
+.famstList{margin:150px auto 80px;width:760px;}
+.famstList:after{display:block;content:"";clear:both;}
+.famstList li{float:left;width:160px;margin:0 10px;padding:40px 0 30px;background-color:#234f91;border:1px solid #163e79;box-shadow:5px 5px #ddd;}
+.famstList li p{text-align:center;}
+.famstList li p.bl_tit{font-size:20px;color:#fff;font-weight:600;line-height:130%;}
+.famstList li:first-child p.bl_tit{padding-top:6px;}
+.famstList li p.bl_desc{margin:18px 0 20px;padding-top:20px;font-size:14px;color:#f6f6f6;background:url('../images/common/line_01.gif') center top no-repeat;}
+.famstList li p.bl_bt_box a{display:inline-block;padding:5px 20px 3px;font-size:14px;color:#0f2b5d;background-color:#b7d3fd;}
+.famstList li p.bl_bt_box a:hover, .blessList li p.bl_bt_box a:focus{background-color:#ffd503;}
+
+
+/********** 리스트 01   - 식구정보불러오기 table *************/
+.tblList_01{}
+.tblList_01 table{border-top:2px solid #051f42;}
+.tblList_01 table thead th, .tblList_01 table tbody td{padding:10px 5px;text-align:center;font-size:14px;font-weight:normal;}
+.tblList_01 table thead th{border-bottom:1px solid #051f42;border-right:1px solid #051f42;background-color:#083f88;color:#fff;}
+.tblList_01 table thead th:last-child{border-right:none;}
+.tblList_01 table tbody td{border-bottom:1px solid #ddd;border-right:1px solid #ddd;}
+.tblList_01 table tbody td:last-child{border-right:none;}
+.tblList_01 table tbody tr.bg_w{background-color:#fff;}
+.tblList_01 table tbody tr.bg_gr{background-color:#f7f7f7;}
+
+/** 리스트 02 **/
+.tblList_02{}
+.tblList_02 table thead th      {padding:10px 5px; color:#000; font-weight:600; background:#f6f6f6;font-size:14px; border:1px solid #ddd;}
+.tblList_02 table tbody th      {padding:10px 10px;text-align:left;background-color:#fbfbfb;font-size:14px;border:1px solid #ddd;}
+.tblList_02 table tbody td      {padding:10px 10px; color:#444; border:1px solid #ddd; text-align:center;font-size:14px;}
+.tblList_02 table tbody tr.bg_w{background-color:#fff;}
+.tblList_02 table tbody tr.bg_gr{background-color:#fafafa;}
+/*.tblList_02 table tbody tr:nth-child(even){background:#fcfcfc} */
+.tblList_02 table tbody td p.s_tit{margin:0 0 -8px -10px ;font-size:17px;font-weight:600;color:#000;text-align:left !important;}   /*폼(table) 사이에 있을 때*/
+.tblList_02 table tbody td p.pc_none{display:none;}
+.tblList_02 table tbody td.w7{width:7%;}
+.tblList_02 table tbody td.w22{width:22%;}
+
+.tblList_02 table tbody td span{display:inline-block;margin-right:20px;}
+
+
+
+/* table 내에 있는 식구정보불러오기 버튼 */
+table tbody td p.btn_fmlyinfo{display:inline-block;}
+table tbody td p.btn_fmlyinfo a.btn_bl{padding:4px 10px 3px;background-color:#083f88;color:#fff;border:1px solid #073572;border-radius:4px;box-shadow:1px 1px 1px #aaa;font-size:13px;}
+table tbody td p.btn_fmlyinfo a.btn_bl:hover, a.btn_bl:focus{background-color:#1b57a7;border:1px solid #083f88;color:#ffd503;}
+
+
+span.btn_fmlyinfo_sub{display:inline-block;}
+span.btn_fmlyinfo_sub a.btn_bl{padding:4px 10px 3px;background-color:#083f88;color:#fff;border:1px solid #073572;border-radius:4px;box-shadow:1px 1px 1px #aaa;font-size:13px;}
+span.btn_fmlyinfo_sub a.btn_bl:hover, a.btn_bl:focus{background-color:#1b57a7;border:1px solid #083f88;color:#ffd503;}
+
+
+/* 특별헌금 table 내에 있는 식구정보불러오기(돋보기 검색) 버튼 */
+
+span.btn_fmlyinfo2{line-height:0;vertical-align:top;}
+span.btn_fmlyinfo2 a.btn_search{display:inline-block;margin-top:1px;width:30px;height:25px;background-color:#083f88;color:#fff;border:1px solid #073572;border-radius:4px;box-shadow:1px 1px 1px #aaa;font-size:1px;text-indent:-9999px;
+                                  background:#083f88 url("../images/common/icon_sch.png") center 5px no-repeat;line-height:0;vertical-align:top;}
+span.btn_fmlyinfo2 a.btn_search:hover, a.btn_bl:focus{background-color:#1b57a7;border:1px solid #083f88;color:#ffd503;}
+
+
+/****** 참여마당 customer *******/
+.searchBox              {background:#fafafa; padding:20px; border:1px solid #e8e8e8;}
+
+.bbs_list table           {width:100%;}
+.bbs_list table thead th      {padding:14px 10px; font:15px/130% 'NanumSquare'; color:#000; font-weight:600; background:#f6f6f6; border:1px solid #eee; text-align:center;}
+.bbs_list table tbody td      {padding:14px 10px; font:15px/130% 'NanumSquare'; color:#444; border:1px solid #eee; text-align:center;}
+.bbs_list table tbody tr:nth-child(even){background:#fcfcfc}
+.bbs_list table tbody td p.pc_none{display:none;}
+
+
+.bbs_form table           {width:100%; table-layout:fixed;}
+.bbs_form table thead th      {padding:20px 10px; font:18px/130% 'NanumSquare'; color:#000; font-weight:600; border:1px solid #eee; border-top:1px solid #000; background:#f0f0f0;}
+.bbs_form table tbody th      {width:200px; padding:14px 10px; font:15px/130% 'NanumSquare'; color:#000; font-weight:600; background:#f6f6f6; border:1px solid #eee;}
+.bbs_form table tbody td      {padding:14px 10px; font:15px/130% 'NanumSquare'; color:#444; border:1px solid #eee;}
+.bbs_form table tbody td.fileArea p {padding:2px 0;}
+.bbs_form table tbody td.fileArea p i{width:23px; height:23px; line-height:23px; font-size:12px; color:#666; background:#eee; text-align:center; border-radius:50%;}
+.bbs_form table tbody td.contentArea{padding:30px; height:200px; vertical-align:top;}
+
+
+
+.pagination             {position:relative; text-align:center; margin:20px 0;}
+.pagination a, .pagination strong{display:inline-block;width:26px;height:26px;margin-left:1px;margin-right:1px;text-align:center;font-size:13px;color:#252525;line-height:28px;letter-spacing:-2px;vertical-align:middle;}
+.pagination a           {border:solid 1px #dedede;background:#fff}
+.pagination strong          {border:solid 1px #083f88;background:#083f88;color:#fff;font-weight:normal;}
+.pagination span.page_btn     {display:inline-block;margin:0 2px}
+.pagination span.page_btn a     {width:26px;height:26px; font-size:14;line-height:26px;}
+*:first-child+html .pagination span.page_btn a{text-indent:0}
+
+
+
+/* 추가 */
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 3;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+  cursor: default;
+}
+
+
+.error {color:red;}
+
+
+
+
+.sortBox              {border-top:1px solid #e8e8e8; border-bottom:1px solid #e8e8e8; padding:5px; }
+.sortBox li             {display:inline-block; padding:5px;font-size:14px;}
+.sortBox li:after         {padding-left:15px; content:"/"; color:#ddd;}
+.sortBox li:last-child:after    {padding-left:0; content:"";}
+.sortBox li.active a        {font-weight:bold; color:#083f88;}
+
+.photo_box{}
+.photo_box li{display:inline-block;margin-right:5px;width:32%;}
+.photo_box li img{width:100%;}
+.photo_box_2{}
+.photo_box_2 li{display:inline-block;margin-right:5px;width:32%;}
+.photo_box_2 li img{width:100%;}
+
+
+
+/*************  마이페이지 ************/
+.searchBox              {background:#fafafa; padding:20px; border:1px solid #e8e8e8;}
+
+
+/* 관리자와 같은 css */
+.tbl_sign{position:relative;}
+.tbl_sign:after{display:block;clear:both;content:"";}
+.tbl_sign p.logo_box{float:left;width:258px;}
+.tbl_sign p.logo_box img{width:80%;}
+.tbl_sign table           {border-collapse: collapse; border-spacing: 0;width:100%; max-width:300px; float:right;}
+.tbl_sign table th          {padding:8px 10px; font:14px/130% 'NanumSquare'; border:1px solid #aaa;}
+.tbl_sign table td          {padding:10px 10px; font:14px/130% 'NanumSquare'; border:1px solid #aaa; text-align:center;min-width:62px;}
+.tbl_sign table td .signTime    {font:11px/130% 'NanumSquare';}
+.tbl_sign table td .signApprove   {font:18px/130% 'NanumSquare'; font-weight:bold; padding-top:5px;}
+
+/* 프린트와 같은 css
+.tbl_sign{position:relative;}
+.tbl_sign:after{display:block;clear:both;content:"";}
+.tbl_sign p.logo_box{float:left;}
+.tbl_sign table           {float:right;border-collapse: collapse; border-spacing: 0;width:100%; max-width:300px; float:right;border:2px solid #000;}
+.tbl_sign table th          {padding:8px 10px; font:13px/130% 'NanumSquare'; border:1px solid #666;}
+.tbl_sign table td          {padding:10px 10px; font:13px/130% 'NanumSquare'; border:1px solid #666; text-align:center;min-width:52px;height:45px}
+.tbl_sign table td .signTime    {font:11px/130% 'NanumSquare';}
+.tbl_sign table td .signApprove   {font:18px/130% 'NanumSquare'; font-weight:bold; padding-top:5px;}
+*/
+
+@media all and (max-width: 1100px) {
+.tblForm_01 table tbody td dl dd{padding:3px 0 3px;width:78%;}
+
+.cont_box{*border:1px solid red;}
+
+/* 가정회비납부 */
+.blessRegi li           {width:46%;}
+
+
+}
+
+
+
+@media all and (max-width: 1000px) {
+
+.lnbWrap{display:none;}
+.content_wrap{float:right;margin:-105 0 0 0;padding-bottom:60px;max-width:100%;width:100%;}
+
+.cont_box{margin:70px auto 0;width:98%;*border:1px solid blue;}
+.tblForm_01 table tbody td p.photo_box{margin-top:-50px;vertical-align:top;width:100%;min-width:80px;max-width:140px}
+.tblForm_01 table tbody td p.photo_box_2{margin-top:-50px;vertical-align:top;width:100%;min-width:80px;max-width:140px}
+
+.tblForm_01 table tbody td dl dd{padding:3px 0 3px;width:80%;}
+
+
+
+}
+
+@media all and (max-width: 900px) {
+
+.cont_box{*border:1px solid orange;}
+
+.tblForm_01 table tbody th, .tblForm_01 table tbody td{font-size:13px;}
+
+
+
+
+}
+
+@media all and (max-width: 800px) {
+
+.mo_none{display:none;}
+
+.subVis{background:url('../images/sub/sub_bg.jpg') center 0 repeat;height:100px;}
+.content_wrap{float:right;margin:-75px 0 0 2%;}
+
+.cont_box{margin-top:50px;*border:1px solid aqua;}
+
+
+.tit{font-size:25px;}
+
+.tblForm_01 table thead th.form_tit{font-size:23px;}
+.tblForm_01 table thead th.form_tit p.form_sort{margin-top:5px;margin-bottom:-10px;font-size:14px;text-align:center;}
+.tblForm_01 table thead th.form_tit p.form_sort span{display:inline-block;padding:3px 10px;border-radius:50px;font-size:12px;background-color:#333;color:#fff;}
+
+.tblForm_01 table tbody td p.s_tit{font-size:16px;}
+
+div.form_tit{font-size:23px;}
+div.form_tit li{float:left;width:100%;}
+div.form_tit li p{font-size:14px;text-align:center;}
+div.form_tit li p.form_sort{margin-bottom:0px;font-size:14px;text-align:center;}
+div.form_tit li p.form_sort span{display:inline-block;padding:3px 10px;border-radius:50px;font-size:12px;background-color:#333;color:#fff;}
+
+/* 가정회비납부 */
+.blessRegi li           {width:45%;}
+
+.tblForm_01 table tbody td dl dd{padding:3px 0 3px;width:75%}
+
+.tblList_02 table tbody td p.pc_none{display:block;}
+.tblList_02 table tbody td p{margin-top:5px;padding-top:5px;color:#555;border-top:1px dashed #ddd;}
+.tblList_02 table thead th.mo_none{display:none;}
+.tblList_02 table tbody td.mo_none{display:none;}
+.tblList_02 table tbody td.mo_none p{margin-top:5px;padding-top:5px;color:#555;border-top:1px dashed #ddd;}
+
+
+p.s_tit{font-size:16px;}
+.tblList_02 table thead th, .tblList_02 table tbody th, .tblList_02 table tbody td{font-size:13px;}
+
+.tblList_02 table tbody td p.s_tit{font-size:16px;}
+
+.formInfo{padding:60px 10px 20px;}
+.formInfo p{margin-bottom:10px;}
+
+
+/* 축복신청 바로가기 리스트 fam_00.php */
+.blessList{margin:100px auto 50px;width:90%;}
+.blessList:after{display:block;content:"";clear:both;}
+.blessList li{position:relative;float:left;width:90%;margin:10px 0;padding:10px 3%;background-color:#234f91;border:1px solid #163e79;box-shadow:5px 5px #ddd;}
+.blessList li p{float:left;text-align:left;}
+.blessList li p.bl_tit{font-size:17px;color:#fff;width:110px;}
+.blessList li:first-child p.bl_tit{padding-top:6px;}
+.blessList li p.bl_desc{margin:0px 20px;padding-top:0px;font-size:14px;color:#f6f6f6;background:none;}
+.blessList li p.bl_bt_box{position:absolute;top:35%;right:20px;}
+.blessList li p.bl_bt_box a{display:inline-block;padding:5px 10px 3px;font-size:13px;color:#0f2b5d;background-color:#b7d3fd;}
+.blessList li p.bl_bt_box a:hover, .blessList li p.bl_bt_box a:focus{background-color:#ffd503;}
+
+
+
+.bbs_list table           {width:100%;}
+.bbs_list table thead th      {padding:12px 7px; font:14px/130% 'NanumSquare'; color:#000; font-weight:600; background:#f6f6f6; border:1px solid #eee; text-align:center;}
+.bbs_list table tbody td      {padding:12px 7px; font:14px/130% 'NanumSquare'; color:#444; border:1px solid #eee;}
+.bbs_list table tbody td.taL{text-align:left;}
+.bbs_list table tbody tr:nth-child(even){background:#fcfcfc}
+
+.bbs_list table tbody td p.pc_none{display:block;}
+.bbs_list table tbody td p{margin-top:5px;font-size:13px;color:#888;}
+.bbs_list table thead th.mo_none{display:none;}
+.bbs_list table tbody td.mo_none{display:none;}
+
+.bbs_form table thead th      {padding:20px 10px; font:16px/130% 'NanumSquare'; color:#000; font-weight:600; border:1px solid #eee; border-top:1px solid #000; background:#f0f0f0;}
+.bbs_form table tbody th      {width:200px; padding:12px 7px; font:14px/130% 'NanumSquare'; color:#000; font-weight:600; background:#f6f6f6; border:1px solid #eee;}
+.bbs_form table tbody td      {padding:12px 7px; font:14px/130% 'NanumSquare'; color:#444; border:1px solid #eee;}
+
+  .photo_box li{margin-bottom:5px;width:48%;}
+  .photo_box_2 li{margin-bottom:5px;width:48%;}
+
+
+.searchBox              {text-align:center;}
+
+.tbl_sign p.logo_box{float:left;width:100%;text-align:center;margin-bottom:20px;}
+.tbl_sign p.logo_box img{width:40%;}
+.tbl_sign table           {margin:0 auto;width:100%; max-width:300px; float:none;}
+}
+
+@media all and (max-width: 620px) {
+
+/* 가정회비납부 */
+.blessRegi              {margin:10px auto 0;}
+.blessRegi li           {width:100%;border:none; padding:10px 0;}
+.blessRegi li:nth-child(odd)    {float:left;}
+.blessRegi li:nth-child(even)   {float:left;}
+
+}
+
+
+@media all and (max-width: 450px) {
+
+.tblForm_01 table tbody td dl dd{padding:3px 0 3px;width:75%;}
+
+.searchBox div{width:98%;padding-top:5px;margin-top:5px;border-top:1px dashed #ddd;}
+.searchBox div:first-child{padding-top:0; margin-top:0;border-top:none;}
+
+.tbl_sign p.logo_box img{width:50%;}
+
+.photo_box li{margin-bottom:5px;width:100%;}
+.photo_box_2 li{margin-bottom:5px;width:100%;}
+
+
+.cont_box{*border:1px solid green;}
+
+
+/* 축복신청 바로가기 리스트 fam_00.php */
+.blessList{margin:100px auto 50px;width:90%;}
+.blessList:after{display:block;content:"";clear:both;}
+.blessList li{position:relative;float:left;width:90%;margin:10px 0;padding:10px 3%;background-color:#234f91;border:1px solid #163e79;box-shadow:5px 5px #ddd;}
+.blessList li p{float:left;text-align:left;}
+.blessList li p.bl_tit{margin-bottom:10px;font-size:17px;color:#fff;width:100%;}
+.blessList li:first-child p.bl_tit{padding-top:6px;}
+.blessList li p.bl_desc{margin:0px 20px 0 0;padding-top:0px;font-size:14px;color:#f6f6f6;background:none;}
+.blessList li p.bl_bt_box{position:absolute;top:65%;right:20px;}
+.blessList li p.bl_bt_box a{display:inline-block;padding:5px 10px 3px;font-size:13px;color:#0f2b5d;background-color:#b7d3fd;}
+.blessList li p.bl_bt_box a:hover, .blessList li p.bl_bt_box a:focus{background-color:#ffd503;}
+
+}
+
+
+
+
+/* 추가 */
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 3;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+  cursor: default;
+}
+.error {color:red;}

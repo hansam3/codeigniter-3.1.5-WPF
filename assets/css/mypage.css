@@ -1,0 +1,144 @@
+
+
+/******* 프린트 - 테이블 폼 css *******/
+table{border-collapse: collapse; border-spacing: 0;width:100%;}
+.tblMypage_01{*border-top:2px solid #555;*border-bottom:1px solid #666;}
+.tblMypage_01 > table{*max-width:800px;}
+.tblMypage_01 table thead th.form_tit{padding:20px 0 0px;font-size:30px;font-weight:normal;font-family:'NanumSquare';color:#000;text-align:left;}
+.tblMypage_01 table thead th.form_tit p.form_sort{margin-bottom:-10px;font-size:15px;text-align:right;}
+.tblMypage_01 table thead th.form_tit p.form_sort span{display:inline-block;padding:3px 10px;border-radius:50px;font-size:12px;background-color:#666;color:#fff;}
+.tblMypage_01 table > tbody {border:2px solid #000;}
+.tblMypage_01 table tbody tr:first-child{border-top:1px solid #666;}
+.tblMypage_01 table tbody th, .tblMypage_01 table tbody td{padding:8px 10px;font-size:14px;border-bottom:1px solid #666;}
+.tblMypage_01 table tbody th{text-align:center;*border-left:1px solid #666;border-right:1px dashed #666;*background-color:#fbfbfb;*font-weight:normal;color:#000;}
+.tblMypage_01 table tbody td{border-right:1px solid #666;color:#222;}
+.tblMypage_01 table tbody td:last-child{border-right:none;}
+.tblMypage_01 table tbody td.bdrN{border-right:none;}
+.tblMypage_01 table tbody td.pdTB20{padding-top:20px;padding-bottom:20px;}
+/*.tblMypage_01 table tbody td.td_photo{border:2px solid #fff;border-bottom:2px solid #000;border-right:2px solid #000;}*/
+.tblMypage_01 table tbody td p{}
+.tblMypage_01 table tbody td p.photo_box{*margin-top:-100px;vertical-align:top;width:100%;min-width:120px;max-width:140px}
+.tblMypage_01 table tbody td p.photo_box img{width:100%;}
+.tblMypage_01 table tbody td p.photo_box_2{*margin-top:-100px;vertical-align:top;width:100%;min-width:120px;max-width:140px}
+.tblMypage_01 table tbody td p.photo_box_2 img{width:100%;}
+.tblMypage_01 table tbody td p.sign_area span{display:inline-block;border-bottom:1px solid #666;width:100px;}
+
+/*  s_tit  폼 사이의 작은 타이틀 */
+.tblMypage_01 table tbody td p.s_tit{margin:0 0 -8px -10px ;font-size:17px;font-weight:600;color:#000;}   /*폼(table) 사이에 있을 때*/
+p.s_tit{display:inline-block;margin:10px 0 8px;padding-top:15px;font-size:17px;font-weight:600;color:#000;}        /*폼(table) 밖에 있을 때*/
+/*  //s_tit  폼 사이의 작은 타이틀 */
+
+/* 테이블 밖 폼 타이틀 (div.form_tit)  -  주일헌금, 특별헌금 */
+div.form_tit{padding:20px 0;font-size:30px;font-weight:normal;font-family:'NanumSquare';color:#000;text-align:center;border-top:2px solid #555;border-bottom:1px solid #666;}
+div.form_tit ul{margin-bottom:-10px;}
+div.form_tit ul:after{display:block;content:"";clear:both;}
+div.form_tit li{float:left;width:50%;}
+div.form_tit li p{font-size:15px;text-align:left;}
+div.form_tit li p.form_sort{margin-bottom:-10px;font-size:15px;text-align:right;}
+div.form_tit li p.form_sort span{display:inline-block;padding:3px 10px;border-radius:50px;font-size:12px;background-color:#333;color:#fff;}
+/*  //테이블 밖 폼 타이틀 */
+
+/* layout */
+h2.title      {font:25px/140% 'NanumSquare'; color:#222; margin:20px 0; letter-spacing:-0.08em;}
+h3.h3Tit      {font:17px/140% 'NanumSquare'; color:#222; padding:0 0 10px; letter-spacing:-0.05em; font-weight:600;}
+h3.h3Tit i      {font-weight:normal; color:#083f88;}
+
+
+.tblMypage_01 table tbody td dl{margin-top:2px;}
+.tblMypage_01 table tbody td dl:after{display:block;content:"";clear:both;}
+.tblMypage_01 table tbody td dl dt, .tblMypage_01 table tbody td dl dd{float:left;}
+.tblMypage_01 table tbody td dl dt{padding:5px 7px;font-size:13px;background-color:#ebebeb;color:#333;width:10%;min-width:25px;margin-right:5px;}
+.tblMypage_01 table tbody td dl dd{padding:3px 0 1px;width:75%;;}
+
+/*    dl02   - 출생신고서 */
+.tblMypage_01 table tbody td dl.dl02.dl.dl0202{margin-top:2px;}
+.tblMypage_01 table tbody td dl.dl02:after{display:block;content:"";clear:both;}
+.tblMypage_01 table tbody td dl.dl02 dt, .tblMypage_01 table tbody td dl.dl02 dd{float:left;height:20px;margin-bottom:1px;}
+.tblMypage_01 table tbody td dl.dl02 dt{padding:5px 10px;font-size:13px;background-color:#ebebeb;color:#333;width:auto;min-width:25px;margin-right:5px;}
+.tblMypage_01 table tbody td dl.dl02 dd{padding:4px 0 6px;width:auto; margin-right:20px;}
+.tblMypage_01 table tbody td dl.dl02 dd input{margin-top:-2px;} /*dd의 패딩값이 텍스트 기준으로 되어있기때문에 input을 넣을 때 margin으로 조절*/
+.tblMypage_01 table tbody td dl.dl02 dd select{margin-top:-2px;} /*dd의 패딩값이 텍스트 기준으로 되어있기때문에 select를 넣을 때 margin으로 조절*/
+
+/*    dl03   - 가정출발신고서 */
+.tblMypage_01 table tbody td dl.dl03.dl.dl0302{margin-top:2px;}
+.tblMypage_01 table tbody td dl.dl03:after{display:block;content:"";clear:both;}
+.tblMypage_01 table tbody td dl.dl03 dt, .tblMypage_01 table tbody td dl.dl03 dd{float:left;height:20px;margin-bottom:1px;}
+.tblMypage_01 table tbody td dl.dl03 dt{padding:5px 10px;font-size:13px;background-color:#ebebeb;color:#333;width:auto;min-width:25px;margin-right:5px;}
+.tblMypage_01 table tbody td dl.dl03 dd{padding:4px 0 6px;width:auto; margin-right:20px;height:50px;}
+.tblMypage_01 table tbody td dl.dl03 dd input{margin-top:-2px;margin-bottom:5px;} /*dd의 패딩값이 텍스트 기준으로 되어있기때문에 input을 넣을 때 margin으로 조절*/
+.tblMypage_01 table tbody td dl.dl03 dd select{margin-top:-2px;margin-bottom:5px} /*dd의 패딩값이 텍스트 기준으로 되어있기때문에 select를 넣을 때 margin으로 조절*/
+
+
+/** 가족관계 **/
+.tblMypage_01 table tbody td div.tbl_fmly{border:none;}
+.tblMypage_01 table tbody td div.tbl_fmly table{border:none;width:100%;}
+.tblMypage_01 table tbody td div.tbl_fmly table thead th, .tblMypage_01 table tbody td div.tbl_fmly table tbody td{padding:3px;border:none;font-size:13px;}
+.tblMypage_01 table tbody td div.tbl_fmly table thead th{text-align:center;border-bottom:1px solid #aaa;border-right:1px solid #ddd;border-top:1px solid #aaa;}
+.tblMypage_01 table tbody td div.tbl_fmly table thead th:nth-child(even){border-right:1px solid #aaa;}
+.tblMypage_01 table tbody td div.tbl_fmly table thead th:last-child{border-right:none;}
+.tblMypage_01 table tbody td div.tbl_fmly table tbody{border:1px solid #fff;}
+.tblMypage_01 table tbody td div.tbl_fmly table tbody td{text-align:center;border-bottom:1px solid #aaa;border-right:1px solid #ddd;}
+.tblMypage_01 table tbody td div.tbl_fmly table tbody td:nth-child(odd){border-right:1px dashed #ddd;}
+.tblMypage_01 table tbody td div.tbl_fmly table tbody td:nth-child(even){border-right:1px solid #aaa;}
+.tblMypage_01 table tbody td div.tbl_fmly table tbody td:last-child{border-right:none;}
+.tblMypage_01 table tbody td div.tbl_fmly table tbody td input{width:100%;}
+
+
+.tbl_sign{position:relative;}
+.tbl_sign:after{display:block;clear:both;content:"";}
+.tbl_sign p.logo_box{float:left;width:258px;}
+.tbl_sign p.logo_box img{width:80%;}
+.tbl_sign table						{border-collapse: collapse; border-spacing: 0;width:100%; max-width:300px; float:right;}
+.tbl_sign table th					{padding:8px 10px; font:14px/130% 'NanumSquare'; border:1px solid #aaa;}
+.tbl_sign table td					{padding:10px 10px; font:14px/130% 'NanumSquare'; border:1px solid #aaa; text-align:center;min-width:62px;}
+.tbl_sign table td .signTime		{font:11px/130% 'NanumSquare';}
+.tbl_sign table td .signApprove		{font:18px/130% 'NanumSquare'; font-weight:bold; padding-top:5px;}
+
+
+
+/***************************************** 프린트- 증명서 폼 *********************************************/
+.top_img_box{padding-top:30px;}
+.print_cer_top{margin:0px auto;width:750px;}
+.print_cer_top:after{display:block;clear:both;content:"";}
+.print_cer_top li{float:left;width:50%;color:#333;font-size:15px;}
+.print_cer_wrap{}
+.print_cer_wrap table{margin:0 auto;width:650px;color:#000;}
+.print_cer_wrap table thead th{padding:90px 0 60px;text-align:center;font-size:30px;letter-spacing:40px}
+.print_cer_wrap table tbody th,.print_cer_wrap table tbody td{padding:18px 0;letter-spacing:2px;}
+.print_cer_wrap table tbody th{text-align:left;font-size:17px;font-weight:normal;}
+.print_cer_wrap table tbody th.space_tlt {letter-spacing:3.33px;}
+.print_cer_wrap table tbody td{padding-left:15px;text-align:left;text-align:left;font-size:17px;}
+.print_cer_wrap table tbody td.letterSpc_3{letter-spacing:12px}
+.print_cer_wrap table tbody td.lineHeight{line-height:30px;}
+.print_cer_wrap table tbody td span.txt_indent01{display:inline-block;width:115px;}
+.print_cer_wrap table tbody td span.txt_indent02{display:inline-block;width:50px;}
+
+.print_cer_wrap table tbody td.career{padding:10px;}
+.print_cer_wrap table tbody td.career ul{}
+.print_cer_wrap table tbody td.career ul li{width:100%;}
+.print_cer_wrap table tbody td.career ul li:after{display:block;content:"";clear:both;}
+.print_cer_wrap table tbody td.career ul li p{float:left;}
+.print_cer_wrap table tbody td.career ul li p.period{width:44%;}
+.print_cer_wrap table tbody td.career ul li p.position{width:55%;}
+
+.print_cer_wrap table tbody td p.sealBox{margin:0 auto;width:300px;height:150px;border:1px solid #000;}
+
+.date_box{text-align:center;font-size:17px;color:#000;}
+.official_box{margin-top:40px;text-align:center;font-size:20px;letter-spacing:8px;font-weight:600;color:#000;}
+
+.h30 {height:10px;}
+
+
+@media all and (max-width: 800px) { 
+
+.tbl_sign p.logo_box{float:left;width:100%;text-align:center;margin-bottom:20px;}
+.tbl_sign p.logo_box img{width:40%;}
+.tbl_sign table						{margin:0 auto;width:100%; max-width:300px; float:none;}
+
+}
+
+@media all and (max-width: 450px) { 
+
+.tbl_sign p.logo_box img{width:50%;}
+
+}

@@ -1,0 +1,388 @@
+.m_container{padding:5px 0 5px;background:url('../images/main/main_bg.jpg') center 0 repeat;}
+.m_bigTit{margin:0 auto;text-align:center;width:306px;}
+
+.pc_tab_active{display:block;}  /*PC, tablet 에서 보이는 신청서/증명서 탭 활성화*/
+.mo_tab_active{display:none;}  /*mobile 에서 보이는 신청서/증명서 탭 비활성화*/
+
+
+
+.tabBox_wrap{margin:35px auto 60px;width:100%;max-width:1200px}
+.tabBox_wrap:after{display:block;content:"";clear:both;}
+.tabBox{float:left;width:50%;}
+.tabBox p.tab_tit{padding:10px 15px;width:150px;font-size:16px;font-weight:600;border-radius:10px 10px 0 0;;font-family:'NanumSquare';text-align:center;}
+.tabBox p.tab_tit img{margin-top:1px;width:18%;}
+.tab_app p.tab_tit{background-color:#18529e;color:#ffd503;}
+.tab_cer p.tab_tit{background-color:#f9dc48;color:#083f88;}
+.tabBox ul.tabList{}
+.tabBox ul.tabList:after{display:block;content:"";clear:both;}
+.tabBox ul.tabList li{float:left;width:33.3333%;height:200px;text-align:center;font-weight:bold;cursor:pointer;}
+.tabBox ul.appList{background-color:#083f88;}
+/*.tabBox ul.appList li{background:#083f88 url('../images/main/app_li_bg.jpg') right bottom no-repeat;border-bottom:1px solid #063067;border-right:1px solid #063067;}*/
+/*하나로 신청서 리스트 li - border 포함 bg   - PC*/
+.tabBox ul.appList li.li_01{background:#083f88 url('../images/main/app_li_bd_R_B.jpg') right bottom no-repeat;}
+.tabBox ul.appList li.li_02{background:#083f88 url('../images/main/app_li_bd_R_B.jpg') right bottom no-repeat;}
+.tabBox ul.appList li.li_03{background:#083f88 url('../images/main/app_li_bd_B.jpg') right bottom no-repeat;}
+.tabBox ul.appList li.li_04{background:#083f88 url('../images/main/app_li_bd_R.jpg') right bottom no-repeat;}
+.tabBox ul.appList li.li_05{background:#083f88 url('../images/main/app_li_bd_R.jpg') right bottom no-repeat;}
+.tabBox ul.appList li.li_06{background:#083f88 url('../images/main/app_li_bd_N.jpg') right bottom no-repeat;}
+.tabBox ul.cerList{background-color:#ffd503;}
+/*.tabBox ul.cerList li{background:#ffd503 url('../images/main/cer_li_bg.jpg') right bottom no-repeat;border-bottom:1px solid #eec704;border-right:1px solid #eec704;}  */
+/*하나로 증명서 리스트 li - border 포함 bg   - PC*/
+.tabBox ul.cerList li.li_01{background:#ffd503 url('../images/main/cer_li_bd_R_B.jpg') right bottom no-repeat;}
+.tabBox ul.cerList li.li_02{background:#ffd503 url('../images/main/cer_li_bd_R_B.jpg') right bottom no-repeat;}
+.tabBox ul.cerList li.li_03{background:#ffd503 url('../images/main/cer_li_bd_B.jpg') right bottom no-repeat;}
+.tabBox ul.cerList li.li_04{background:#ffd503 url('../images/main/cer_li_bd_R.jpg') right bottom no-repeat;}
+.tabBox ul.cerList li.li_05{background:#ffd503 url('../images/main/cer_li_bd_R.jpg') right bottom no-repeat;}
+.tabBox ul.cerList li.li_06{background:#ffd503 url('../images/main/cer_li_bd_N.jpg') right bottom no-repeat;}
+
+.tabBox ul.tabList li p.iconBox{margin-top:50px;}
+.tabBox ul.tabList li p.iconBox img{width:40%;}
+.tabBox ul.tabList li p.tit{margin-top:20px;font-size:18px;}
+.tabBox ul.appList li p.tit{color:#fff;}
+.tabBox ul.cerList li p.tit{color:#333;}
+
+
+.cont01{margin:0 auto;width:100%;max-width:1200px;}
+.cont01:after{display:block;content:"";clear:both;}
+.brdWrap{float:left;padding-top:10px;width:100%;max-width:1200px;}
+.brdWrap:after{display:block;content:"";clear:both;}
+.brdBox{position:relative;float:left;padding:25px 0 35px;width:33%;height:300px;border-top:2px solid #cecece;}
+.brd_notice{background-color:#fff;border-right:1px solid #ececec;width:33%;}
+.brd_faq{background-color:#f8f8f8;}
+.brdBox p.brd_tit{padding-left:20px;font-size:18px;color:#083f88;font-weight:600;line-height:1em;}
+.brdBox p.brd_tit span{font-size:15px;color:#666;}
+.brdBox ul.brd_list{padding-left:20px;margin-top:30px;}
+.brd_notice ul.brd_list{}
+.brd_notice ul.brd_list li{position:relative;padding:3px 0 3px 10px;background:url('../images/common/bullet_gray.gif') 0 12px no-repeat;}
+.brd_notice ul.brd_list li p{display:inline-block;overflow:hidden; text-overflow:ellipsis; white-space:nowrap;width:60%;font-size:13px;line-height:1em;}
+.brd_notice ul.brd_list li span{display:inline-block;position:absolute;top:0;right:20px;color:#777;}
+.brd_faq ul.brd_list{}
+.brd_faq ul.brd_list li{padding:6px  0 6px 18px;font-size:13px;background:url('../images/common/bullet_q.png') 0 12px no-repeat;}
+.brd_faq ul.brd_list li p{display:inline-block;overflow:hidden; text-overflow:ellipsis; white-space:nowrap;width:90%;}
+.brdBox p.more a{position:absolute;top:18px;right:10px;display:inline-block;padding:5px 10px;font-size:25px;color:#083f88;font-weight:600;;line-height:1em;}
+
+
+.pc_issue_active{display:block;}  /*PC, tablet 에서 보이는 issue 활성화*/
+.bnnWrap li.mo_issue_active{display:none;}  /*mobild 에서 보이는 issue 비활성화*/
+
+.issueWrap{position:relative;float:left;padding-top:10px;margin-left:1.2%;width:32.5%;max-width:390px;background-size:cover;*background:url('../images/main/issue_img01.jpg') center 0 no-repeat;}/** z-index값 수정 170725jsw*/
+/*.issueWrap{position:relative;float:left;padding-top:10px;margin-left:1.2%;width:32.5%;max-width:390px;background-size:cover;*background:url('../images/main/issue_img01.jpg') center 0 no-repeat;z-index:9995;}!** z-index값 수정 170725jsw*!*/
+.issue_tit{position:absolute;top:0;right:0;z-index:9998;}
+/*.issueWrap .skdslider .iss_01{background:url('../images/main/issue_img01.jpg') center 0 no-repeat;}*/
+/*.issueWrap .skdslider .iss_02{background:url('../images/main/issue_img02.jpg') center 0 no-repeat;}*/
+.skdslider {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: block;
+    overflow: hidden; }
+.skdslider .slide-navs {
+    width: 100%;
+    bottom: 10px;
+    left: 0;
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+.skdslider .slide-navs li {
+    display: inline-block;
+    background:#083f88;
+    border:1px solid #083f88;
+    height: 12px;
+    width: 12px;
+    margin: 0px 6px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 100%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s; }
+.skdslider .slide-navs .current-slide {
+    background:#fff;
+    border:1px solid #ddd;}
+.skdslider .slides {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+.skdslider .slides li {
+    display: none;
+    position: relative; }
+.skdslider .slides li img {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    position: absolute;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block; }
+.skdslider .slide-desc {
+    left: 0;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5); }
+.skdslider .slide-desc > h1 {
+    color: #CFDB0C;
+    font-size: 25px;
+    margin: 0px;
+    text-transform: uppercase; }
+.skdslider .slide-desc > p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 5px;
+    font-weight: 300; }
+.skdslider .slide-desc > p a.more:hover {
+    text-decoration: underline; }
+.skdslider a.prev {
+    width: 35px;
+    height: 35px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -17px;
+    font-size: 20px;
+    color: white;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s; }
+.skdslider a.next {
+    width: 35px;
+    height: 35px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    margin-top: -17px;
+    font-size: 20px;
+    color: white;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s; }
+.skdslider .next:hover, .skdslider .prev:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=80); }
+.skdslider a.play {
+    background: url("../img/play.png") no-repeat scroll center center transparent;
+    width: 35px;
+    height: 35px;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    margin-top: -17px; }
+.skdslider a.pause {
+    background: url("../img/pause.png") no-repeat scroll center center transparent;
+    width: 35px;
+    height: 35px;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    margin-top: -17px; }
+
+.cont02{}
+.bnnWrap{margin:15px auto 0;width:100%;max-width:1200px}
+.bnnWrap:after{display:block;content:"";clear:both;}
+.bnnWrap li{float:left;padding:77px 0 73px;width:32.5%;max-width:390px;margin-right:1.2%;cursor:pointer;}
+.bnnWrap li:last-child{margin-right:0;}
+.bnnWrap li.bnn01{background:url('../images/main/bnn_img01.jpg') center 0 no-repeat;}
+.bnnWrap li.bnn02{background:url('../images/main/bnn_img04.jpg') center 0 no-repeat;}
+.bnnWrap li.bnn03{background:url('../images/main/bnn_img03.jpg') center 0 no-repeat;}
+.bnnWrap li p{text-align:center;color:#fff;font-family:'NanumSquare';}
+.bnnWrap li p.bnn_tit{font-size:22px;}
+.bnnWrap li p.bnn_tit img{margin-top:5px;}
+.bnnWrap li p.bnn_desc{padding:0 10px;font-size:14px;}
+
+
+
+
+
+@media (max-width: 1200px) {
+
+.tabBox_wrap{margin:35px auto 60px;width:98%;}
+.cont01{margin:0 auto;width:98%;}
+.cont02{margin:0 auto;width:98%;}
+
+
+}
+
+
+
+@media (max-width: 1000px) {
+*body{border:3px solid red;}
+
+.tabBox ul.tabList li{float:left;width:33.3333%;height:160px;}
+
+.tabBox ul.tabList li p.iconBox{margin-top:35px;}
+.tabBox ul.tabList li p.iconBox img{width:45%;}
+.tabBox ul.tabList li p.tit{margin-top:15px;font-size:16px;}
+
+}
+
+
+
+
+@media (max-width: 800px) {
+*body{border:3px solid aqua;}
+
+.m_container{padding:50px 0;background:url('../images/main/main_bg.jpg') center 0 repeat;}
+.m_bigTit{margin:-10px auto 0;text-align:center;max-width:306px;width:80%;}
+.m_bigTit img{width:80%;}
+
+.tabBox_wrap{margin:30px auto;width:96%;max-width:1200px}
+
+.tabBox ul.tabList li{float:left;width:50%;height:160px;}
+/*하나로 신청서 리스트 li - border 포함 bg   - PC*/
+.tabBox ul.appList li.li_01{background:#083f88 url('../images/main/app_li_bd_R_B.jpg') right bottom no-repeat;}
+.tabBox ul.appList li.li_02{background:#083f88 url('../images/main/app_li_bd_B.jpg') right bottom no-repeat;}
+.tabBox ul.appList li.li_03{background:#083f88 url('../images/main/app_li_bd_R_B.jpg') right bottom no-repeat;}
+.tabBox ul.appList li.li_04{background:#083f88 url('../images/main/app_li_bd_B.jpg') right bottom no-repeat;}
+.tabBox ul.appList li.li_05{background:#083f88 url('../images/main/app_li_bd_R.jpg') right bottom no-repeat;}
+.tabBox ul.appList li.li_06{background:#083f88 url('../images/main/app_li_bd_N.jpg') right bottom no-repeat;}
+.tabBox ul.cerList{background-color:#ffd503;}
+/*하나로 증명서 리스트 li - border 포함 bg   - PC*/
+.tabBox ul.cerList li.li_01{background:#ffd503 url('../images/main/cer_li_bd_R_B.jpg') right bottom no-repeat;}
+.tabBox ul.cerList li.li_02{background:#ffd503 url('../images/main/cer_li_bd_B.jpg') right bottom no-repeat;}
+.tabBox ul.cerList li.li_03{background:#ffd503 url('../images/main/cer_li_bd_R_B.jpg') right bottom no-repeat;}
+.tabBox ul.cerList li.li_04{background:#ffd503 url('../images/main/cer_li_bd_B.jpg') right bottom no-repeat;}
+.tabBox ul.cerList li.li_05{background:#ffd503 url('../images/main/cer_li_bd_R.jpg') right bottom no-repeat;}
+.tabBox ul.cerList li.li_06{background:#ffd503 url('../images/main/cer_li_bd_N.jpg') right bottom no-repeat;}
+
+.tabBox ul.tabList li p.iconBox img{width:40%;}
+.tabBox ul.tabList li p.tit{margin-top:15px;font-size:16px;}
+
+
+.cont01{margin:0 auto;width:96%;}
+.cont01:after{display:block;content:"";clear:both;}
+.brdWrap{float:left;padding-top:10px;width:100%;}
+.brdWrap:after{display:block;content:"";clear:both;}
+.brdBox{position:relative;float:left;padding:25px 0 35px;width:100%;height:100%;border-top:2px solid #cecece;}
+.brd_notice{background-color:#fff;border-right:1px solid #ececec}
+.brd_faq{background-color:#f8f8f8;}
+.brdBox p.brd_tit{padding-left:15px;font-size:16px;color:#083f88;font-weight:600;line-height:1em;}
+.brdBox p.brd_tit span{font-size:14px;color:#666;}
+.brdBox ul.brd_list{padding-left:15px;margin-top:30px;}
+
+
+.pc_issue_active{display:none;}  /*PC, tablet 에서 보이는 issue 비활성화*/
+.bnnWrap li.mo_issue_active{display:block;}  /*mobild 에서 보이는 issue 활성화*/
+
+.cont02{}
+.bnnWrap{margin:15px auto 0;padding-top:10px;width:98%;max-width:1200px;}
+.bnnWrap:after{display:block;content:"";clear:both;}
+.bnnWrap li{float:left;padding:0;width:50%;*max-width:390px;margin-right:0;}
+.bnnWrap > li.bnn01, .bnnWrap > li.bnn02 , .bnnWrap > li.bnn03{padding:77px 0 69px;height:54px;}
+.bnnWrap li:last-child{margin-right:0;}
+
+.bnnWrap  li.li_issue{padding:0px}
+.bnnWrap  li.li_issue  .issueWrap{padding:0px;position:relative;float:left;margin-left:0;width:100%;*max-width:390px;background-size:cover;*background:url('../images/main/issue_img01.jpg') center 0 no-repeat;}
+.bnnWrap  li.li_issue .issue_tit{position:absolute;top:-10px;right:0;z-index:9999;}
+
+.skdslider .slide-navs {display:none;} /*issue controller 모바일에서 숨김*/
+
+.bnnWrap li p.bnn_tit{font-size:20px;}
+.bnnWrap li p.bnn_tit img{margin-top:3px;}
+
+
+}
+
+
+@media (max-width: 700px) {
+
+.tabBox ul.tabList li{float:left;width:50%;height:140px;}
+.tabBox ul.tabList li p.iconBox{margin-top:25px;}
+
+
+}
+
+
+
+@media (max-width:450px) {
+*body{border:3px solid orange;}
+
+.pc_tab_active{display:none;}  /*PC, tablet 에서 보이는 신청서/증명서 탭 비활성화*/
+.mo_tab_active{display:block;}  /*mobile 에서 보이는 신청서/증명서 탭 활성화*/
+
+/*모바일*/
+.mo_tabBox_wrap{margin:30px auto 20px;width:96%;}
+#tabmenu				{margin:0; padding:0; list-style-type:none; }
+#tabmenu li				{float:left;width:48%;}
+#tabmenu li a			{display:inline-block;padding:15px 0px 8px;text-align:center;width:100%;font-size:15px;font-weight:600;border-radius:10px 10px 0 0;;font-family:'NanumSquare';}
+#tabmenu li a img	{margin-top:-2px;width:14%;}
+#tabmenu li.tab_app a			{background-color:#18529e;color:#ffd503;}
+#tabmenu li.tab_cer a			{background-color:#f9dc48;color:#083f88;}
+#tabmenu li.tab_app a.over		{background: #083f88;}
+#tabmenu li.tab_cer a.over		{background: #ffd503;}
+#tabmenu li.tab_app a.selected	{background: #18529e}
+#tabmenu li.tab_cer a.selected	{background: #f9dc48}
+#tabcontents			{clear: left; position:relative;}
+#tabcontents .tabcontent{padding-top:0px;}
+
+#tabcontents .tabcontent ul.tabList{}
+#tabcontents .tabcontent ul.tabList:after{display:block;content:"";clear:both;}
+#tabcontents .tabcontent ul.tabList li{float:left;width:33.3333%;height:150px;text-align:center;font-weight:bold;;}
+#tabcontents .tabcontent ul.appList{background-color:#083f88;}
+
+/*하나로 신청서 리스트 li - border 포함 bg   - PC*/
+#tabcontents .tabcontent ul.appList li.li_01{background:#083f88 url('../images/main/app_li_bd_R_B.jpg') right bottom no-repeat;}
+#tabcontents .tabcontent ul.appList li.li_02{background:#083f88 url('../images/main/app_li_bd_R_B.jpg') right bottom no-repeat;}
+#tabcontents .tabcontent ul.appList li.li_03{background:#083f88 url('../images/main/app_li_bd_B.jpg') right bottom no-repeat;}
+#tabcontents .tabcontent ul.appList li.li_04{background:#083f88 url('../images/main/app_li_bd_R.jpg') right bottom no-repeat;}
+#tabcontents .tabcontent ul.appList li.li_05{background:#083f88 url('../images/main/app_li_bd_R.jpg') right bottom no-repeat;}
+#tabcontents .tabcontent ul.appList li.li_06{background:#083f88 url('../images/main/app_li_bd_N.jpg') right bottom no-repeat;}
+#tabcontents .tabcontent ul.cerList{background-color:#ffd503;}
+/*#tabcontents .tabcontent ul.cerList li{background:#ffd503 url('../images/main/cer_li_bg.jpg') right bottom no-repeat;border-bottom:1px solid #eec704;border-right:1px solid #eec704;}  */
+/*하나로 증명서 리스트 li - border 포함 bg   - PC*/
+#tabcontents .tabcontent ul.cerList li.li_01{background:#ffd503 url('../images/main/cer_li_bd_R_B.jpg') right bottom no-repeat;}
+#tabcontents .tabcontent ul.cerList li.li_02{background:#ffd503 url('../images/main/cer_li_bd_R_B.jpg') right bottom no-repeat;}
+#tabcontents .tabcontent ul.cerList li.li_03{background:#ffd503 url('../images/main/cer_li_bd_B.jpg') right bottom no-repeat;}
+#tabcontents .tabcontent ul.cerList li.li_04{background:#ffd503 url('../images/main/cer_li_bd_R.jpg') right bottom no-repeat;}
+#tabcontents .tabcontent ul.cerList li.li_05{background:#ffd503 url('../images/main/cer_li_bd_R.jpg') right bottom no-repeat;}
+#tabcontents .tabcontent ul.cerList li.li_06{background:#ffd503 url('../images/main/cer_li_bd_N.jpg') right bottom no-repeat;}
+
+#tabcontents .tabcontent ul.tabList li p.iconBox{margin-top:33px;}
+#tabcontents .tabcontent ul.tabList li p.iconBox img{width:50%;}
+#tabcontents .tabcontent ul.tabList li p.tit{margin-top:15px;font-size:14px;}
+#tabcontents .tabcontent ul.appList li p.tit{color:#fff;}
+#tabcontents .tabcontent ul.cerList li p.tit{color:#333;}
+
+
+.cont01{margin:0 auto;width:96%;}
+.cont01:after{display:block;content:"";clear:both;}
+.brdWrap{float:left;padding-top:10px;width:100%;}
+.brdWrap:after{display:block;content:"";clear:both;}
+.brdBox{position:relative;float:left;padding:25px 0 35px;width:100%;height:140px;border-top:2px solid #cecece;}
+.brd_notice{background-color:#fff;border-right:none;width:100%;}
+.brd_faq{background-color:#f8f8f8;}
+.brdBox p.brd_tit{padding-left:15px;font-size:16px;color:#083f88;font-weight:600;line-height:1em;}
+.brdBox p.brd_tit span{font-size:14px;color:#666;}
+.brdBox ul.brd_list{padding-left:15px;margin-top:30px;}
+
+
+.pc_issue_active{display:none;}  /*PC, tablet 에서 보이는 issue 비활성화*/
+.bnnWrap li.mo_issue_active{display:block;}  /*mobild 에서 보이는 issue 활성화*/
+
+.cont02{}
+.bnnWrap{margin:15px auto 0;padding-top:10px;width:98%;}
+.bnnWrap:after{display:block;content:"";clear:both;}
+.bnnWrap li{float:left;padding:0;width:100%;*max-width:390px;margin-right:0;}
+.bnnWrap > li.bnn01, .bnnWrap > li.bnn02 , .bnnWrap > li.bnn03{padding:40px 0 38px;}
+.bnnWrap li:last-child{margin-right:0;}
+.bnnWrap li.bnn01{background:url('../images/main/bnn_img01.jpg') center -50px no-repeat;}
+.bnnWrap li.bnn02{background:url('../images/main/bnn_img02.jpg') center -30px no-repeat;}
+.bnnWrap li.bnn03{background:url('../images/main/bnn_img03.jpg') center -20px no-repeat;}
+
+.bnnWrap  li.li_issue{padding:0px}
+.bnnWrap  li.li_issue  .issueWrap{margin-bottom:15px;padding:0px;position:relative;float:left;margin-left:0;width:100%;*max-width:390px;background-size:cover;*background:url('../images/main/issue_img01.jpg') center 0 no-repeat;}
+.bnnWrap  li.li_issue .issue_tit{position:absolute;top:-10px;right:0;z-index:9999;}
+
+.skdslider .slide-navs {display:none;} /*issue controller 모바일에서 숨김*/
+
+}
